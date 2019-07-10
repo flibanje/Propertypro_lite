@@ -1,0 +1,117 @@
+
+
+body{
+    background-image: linear-gradient(rgba(0,0,0.6),rgba(0,0,0,0.6)), url(../Images/fruit.jpgs);
+     height: 100vh;
+    background-size: cover;
+}
+.container{
+    width:84%;
+    margin:auto;
+    overflow: hidden;
+}
+/*Header*/
+header{
+    background:#35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height:72px;
+    border-bottom:#e8491d 3px solid;
+}
+    header a{
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+         font-size: 16px;
+}
+header li{
+    display:inline;
+    padding: 0 20px 0 20px;
+    
+}
+header #branding{
+float: left;
+}
+header #branding h1{
+margin: 0;
+}
+header nav{
+float: right;
+margin-top: 11px;
+
+}
+header .highlight, header .currrent a{
+color:#e8491d;
+font-weight: bold;
+}
+header a:hover{
+color:#cccccc;
+font-weight:bold;
+}
+.login-page{
+    width: 360px;
+    padding: 10% 0 0;
+margin: auto;
+
+}
+.form{
+position: relative;
+z-index: 1;
+background: #55091a;
+max-width: 360px;
+margin: 0 auto 100px;
+padding: 45px;
+text-align: center;
+
+}
+.form input{
+     font-family: "Roboto", sans-serif;
+     outline: 1;
+     background: #f2f2f2;
+     width: 100%;
+     border:0;
+     margin: 0 0 15px;
+     padding: 15px;
+     box-sizing: border-box;
+     font-size: 14px;
+}
+.form button{
+    font-family:"Roboto" , sans-serif;
+    text-transform: uppercase;
+    outline: o;
+    background: rgba(44, 0, 163, 0.314);
+    width:100%;
+     border:0;
+     padding: 15px;
+     color:#ffffff;
+     font-size:14px;
+     cursor: pointer;
+}
+.form button:hover,.form button:active{
+    background: #434343;
+
+}
+.form .message{
+    margin: 15px 0 0;
+    color: aliceblue;
+    font-size: 12px;
+
+}
+
+.form .message a{
+color:#4CAF50;
+text-decoration: none;
+}
+
+.form .register-form {
+    display: none; 
+}
+footer{
+    padding: 20px;
+    margin-top: 100px;
+    color:#ffffff; 
+    background-color:#e8491d;
+    text-align: center;
+
+}
+    
