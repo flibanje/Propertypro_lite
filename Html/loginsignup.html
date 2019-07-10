@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+ <html>
+<head>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="widith=devic-widith">
+        <meta name="description" content="Your demand is our command">
+        <meta name="keywords" content="we give you prices at market and different tips">
+        <meta name="author" content="Back Again">
+        <title>Back again LTD | About </title>
+          <title>login register form</title>
+        <link rel="stylesheet" href="../Css/loginsign.css">
+
+</head>
+<body>
+        <header>
+                <div class="container">
+                 <div id="branding">
+                     <h1>Back again LTD</h1>
+                 </div>  
+                 <nav>
+                    <ul>
+                        <li><a href="C:\Users\user\Challenge1\Propertypro_lite/index.html">Home</a></li>
+                        <li ><a href="about.html">About</a></li>
+                          <li><a href="services.html">Services</a></li>
+                       </ul> 
+                 </nav>       
+               </div>
+              </header>
+    <div class="login-page">
+    <div class="form">
+        <form class="register-form">
+            <input type="text" placeholder="User-name"/>
+            <input type="text" placeholder="password"/>
+            <input type="text" placeholder="Email"/>
+            <button>create</button>
+        <P class="message"> Already Registered? <a href="#">Login  </a>
+        </P>
+        
+        </form>
+        <form class="Login-form">
+            <input type="text" placeholder="User-name"/>
+             <input type="password" placeholder="Password"/>
+             <button>Login</button>
+             <P class="message"> Not Registered? <a href="#">Register </a>
+                <P class="message">forgot your password? <a href="#">Reset  </a>
+                </P>
+             </P>
+        </form>
+    </div>
+    </div>
+    <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+    <script>
+$('.message a').click(function(){
+    $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+});
+    </script>
+    <footer>
+            <p>Back again, copyright &copy;2019</p>
+        </footer>
+</body>
+</html>
